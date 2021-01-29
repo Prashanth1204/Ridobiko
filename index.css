@@ -1,0 +1,565 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.box{
+  border: 1px solid #C60C30;
+  background-color: #C60C30;
+  height: 63px;
+  position: fixed;
+  margin-top: -31px;
+  width: 100%;
+  z-index: 1;
+}
+.boxs{
+  border: 1px solid #C60C30;
+  background-color: #C60C30;
+  height: 63px;
+  position: fixed;
+  margin-top: -2px;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 1px 3px 3px black;
+}
+.white{
+  color: white;
+}
+.title{
+  padding-left: 100px;
+  margin-top: 20px;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+}
+.titles{
+  padding-left: 200px;
+  margin-top: 20px;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+}
+.tpl{
+  padding-left:650px ;
+}
+.tpr{
+  padding-right: 50px;
+  margin-top: 20px;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  transition-property: opacity color;
+  transition-duration: 0.8s;
+}
+.tpr:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  color: black;
+}
+.gb{
+  border: 1px solid #40D3DC;
+  border-radius: 5px;
+  width: 140px;
+  background-color: #40D3DC;
+  margin-top: 6px;
+  margin-left: -9px;
+}
+.tprd{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 3px;
+  margin-top: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: black;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.tprd:hover{
+  cursor: pointer;
+  display: inline-block;
+  transform: scale(1.1,1.1);
+}
+.img1{
+  width:100%;
+  height: 580px;
+  background-image: url('images/bike.jpg');
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+  margin-top: 30px;
+  animation: slider 10s infinite linear;
+}
+.valb{
+  text-decoration: none;
+  color: white;
+}
+.fbox{
+  width: 400px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: -430px;
+  margin-left: 860px;
+}
+.fbbc:hover{
+  transform: scale(1.12,1.12);
+  cursor: pointer;
+}
+.fbt{
+  font-family: 'Lato', sans-serif;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 27px;
+}
+.fbp{
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 15px;
+  font-size: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fbbc{
+  border: 1px solid #40D3DC;
+  background-color:  #40D3DC;
+  padding-left: 20px;
+  width: 145px;
+  color: white;
+  font-weight: bold;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  font-family: 'Bodoni Moda', serif;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.fbb{
+  margin-left: 22px;
+  padding-bottom: 23px;
+  padding-top: 5px;
+}
+.fbbc:hover{
+  background-color: #3CB371;
+  cursor: pointer;
+}
+.tops{
+  margin-top: 300px;
+}
+.ts{
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.tsb{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  color: black;
+  font-size: 28px;
+  margin-left: 50px;
+}
+.tsl{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  color: indigo;
+  font-size: 21px;
+  margin-left: 600px;
+  text-decoration: none;
+}
+.tsbox1{
+  width: 340px;
+  height: 410px;
+  margin-top: 20px;
+  border-radius: 4px;
+  margin-left: 270px;
+  margin-right: 50px;
+  border: 1px solid  whitesmoke;
+  background-color:whitesmoke;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.tsbox2{
+  width: 340px;
+  height: 410px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid  whitesmoke;
+  background-color:whitesmoke;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.hs{
+  border: 1px solid #C60C30;
+  background-color:  #C60C30;
+  padding-right: 70px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+.hsb{
+  margin-top: 20px;
+}
+.bike{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  margin-left: 22px;
+  font-weight: bold;
+}
+.bikeimg{
+  width: 270px;
+  height: 200px;
+  margin-left: 26px;
+  margin-top: 23px;
+  transition-property: transform;
+  transition-duration: 0.8s;
+}
+.bikeimg:hover{
+  display: inline-block;
+  transform: scale(1.15,1.15);
+  cursor: pointer;
+}
+.bikem{
+  margin-top: 30px;
+  margin-left: 12px;
+  color: black;
+  font-weight: bold;
+}
+.tsborder{
+  width: 310px;
+  border: 1px solid grey;
+  margin-top: 9px;
+}
+.tsst{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: black;
+  margin-top: 12px;
+  margin-left: 13px;
+  text-align: center;
+}
+.del{
+  color: grey;
+}
+.off{
+  color: #3CB371;
+  font-family: 'Imbue', serif;
+  font-size: 20px;
+}
+.rbox{
+  width: 100%;
+  height: 530px;
+  border: 1px solid gainsboro;
+  background-color: gainsboro;
+  margin-top: 20px;
+}
+.rtitle{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.hiw{
+  margin-top: -130px;
+  margin-left: 60px;
+}
+.reasonbox1{
+  width: 246px;
+  height: 260px;
+  border: 1px solid hidden;
+  background-color: white;
+  margin-left: 120px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+.reasonbox2{
+  width: 246px;
+  height: 260px;
+  border: 1px solid hidden;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+.reasonbox3{
+  width: 246px;
+  height: 260px;
+  border: 1px solid hidden;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+.reasonbox4{
+  width: 246px;
+  height: 260px;
+  border: 1px solid hidden;
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+.rnum{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  color: gray;
+  font-size: 26px;
+  padding-left: 25px;
+  padding-top: 28px;
+}
+.rselect{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  font-size: 27px;
+  padding-top: 17px;
+  padding-left: 25px;
+  margin-top: -10px;
+}
+.rsample{
+  padding-left: 24px;
+  padding-top: 2px;
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.rpara{
+  margin-top: 35px;
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.foot{
+  border: 1px solid black;
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  margin-top: 140px;
+}
+.footfirstdiv{
+  margin-left: 15%;
+}
+.footseconddiv{
+display: inline-block;
+transform: translate(550px,-322px);
+color: white;
+}
+.footthirddiv{
+  margin-left: 930px;
+  margin-top: -610px;
+color: white;
+}
+.footforthdiv{
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.fwhy{
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 22px;
+}
+.lastlink{
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+.lastlinkdiv{
+  padding-top: 28px;
+  font-size: 17px;
+}
+.tryflex{
+  display: flex;
+  flex-direction: column;
+}
+.flinks{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+.fsdp{
+padding-top: 26px;
+font-size: 19px;
+margin-left: 20px;
+}
+.rido1{
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.rido2{
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  margin-top: 100px;
+  font-size: 28px;
+}
+.rido3{
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  margin-top: 100px;
+  font-size: 28px;
+}
+.subscr{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.9;
+  letter-spacing: 1px;
+  display: inline-block;
+  transform: translate(0,-10px);
+}
+.footm1{
+  width: 280px;
+  padding-top: 14px;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+}
+.fimages{
+  width: 25%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -10px;
+}
+.fbimg{
+  width: 28px;
+  height: 28px;
+}
+.nhgh{
+  border: 1px solid hidden;
+  background-color:   #40D3DC;
+  border-radius: 3px;
+  margin-top: 23px;
+  display: inline-block;
+  transform: translate(-620px,90px);
+}
+.rtitlenh{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  margin-left: 40px;
+  display: inline-block;
+  transform: translate(10px,40px);
+  font-size: 30px;
+}
+.nhsc{
+  padding-left: 30px;
+  font-size: 21px;
+  padding-top: 30px;
+  display: inline-block;
+  transform: translate(10px,40px);
+}
+.nhghb{
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bold;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.nhghb:hover{
+  display: inline-block;
+  transform: scale(1.12,1.12);
+}
+.nodec{
+  color: black;
+  text-decoration: none;
+}
+.sps{
+  padding-top: 130px;
+  margin-left: 180px;
+}
+.cinco{
+  padding-left: 59px;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+.sby{
+  padding-left: 625px;
+  padding-right: 12px;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.select{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tryf{
+  float: left;
+}
+.marginl{
+  margin-left: 235px;
+}
+.flexbox{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.tsbox11{
+  width: 333px;
+  margin-top: 30px;
+  border-radius: 4px;
+  margin-right: 25px;
+  border: 1px solid  whitesmoke;
+  background-color:whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+.pdddow{
+  padding-bottom: 10px;
+  padding-left: 40px;
+  transform: translate(0,-1250px);
+}
+.pdddown{
+  padding-bottom: 13px;
+  padding-left: 50px;
+  transform: translate(0,-1250px);
+}
+.pdddownn{
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-top: 40px;
+  transform: translate(0,-1250px);
+  opacity: 0.6;
+}
+.checkbox{
+  padding-right: 10px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+}
+.checkbox:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.brand{
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.special{
+  width: 210px;
+}
+.brands{
+  padding-left: 7px;
+  font-size: 17px;
+  transform: translate(0,-8px);
+}
